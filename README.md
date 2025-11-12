@@ -1,12 +1,17 @@
 # coffee_shop_mobile_app
 
-A new Flutter project.
+A modern coffee app with a warm aesthetic that lets users explore, customize, and order their favorite brews with ease. From cappuccinos to espressos, Cof. delivers a smooth and inviting experience that feels like your favorite café in your pocket.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+## Screenshots
 
-A few resources to get you started if this is your first Flutter project:
+<p float="left">
+  <img src="assets/images/screenshot_1.png" width="250" />
+  <img src="assets/images/screenshot_2.png" width="250" />
+  <img src="assets/images/screenshot_3.png" width="250" />
+  <img src="assets/images/screenshot_4.png" width="250" />
+</p>
 
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)

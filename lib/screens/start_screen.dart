@@ -1,5 +1,4 @@
-import 'package:coffee_shop_mobile_app/constans/colors.dart';
-import 'package:coffee_shop_mobile_app/screens/home_screen.dart';
+import 'package:coffee_shop_mobile_app/screens/bottom_nav_bar.dart';
 import 'package:coffee_shop_mobile_app/screens/widgets/common_text_field.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
@@ -39,7 +38,6 @@ class StartScreen extends StatelessWidget {
                 top: 50,
                 left: 18,
                 child: SvgPicture.asset("asset/svg_images/Logo.svg"),
-                //  child: Image.asset("asset/images/Logo.png"),
               ),
 
               Positioned(
@@ -81,7 +79,6 @@ class StartScreen extends StatelessWidget {
               Positioned(
                 left: 18,
                 top: s.height * 0.85,
-
                 child: SizedBox(
                   width: 140,
                   height: 52,
@@ -90,7 +87,6 @@ class StartScreen extends StatelessWidget {
                     borderRadius: BorderRadius.circular(15),
                     activeThumbColor: Colors.white,
                     activeTrackColor: Colors.brown[100]!,
-
                     child: Padding(
                       padding: const EdgeInsets.only(left: 20),
                       child: commonTextWidget(
@@ -103,7 +99,7 @@ class StartScreen extends StatelessWidget {
                     onSwipe: () {
                       Navigator.push(
                         context,
-                        MaterialPageRoute(builder: (context) => HomeScreen()),
+                        MaterialPageRoute(builder: (context) => BottomNavPage()),
                       );
                     },
                   ),

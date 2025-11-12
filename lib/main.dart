@@ -1,4 +1,3 @@
-import 'package:coffee_shop_mobile_app/screens/bottom_nav_bar.dart';
 import 'package:coffee_shop_mobile_app/screens/start_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -20,8 +19,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      // home: StartScreen(),
-      home: BottomNavPage(),
+       home: StartScreen(),
+
     );
   }
 }
