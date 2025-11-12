@@ -7,10 +7,10 @@ A modern coffee app with a warm aesthetic that lets users explore, customize, an
 ## Screenshots
 
 <p float="left">
-  <img src="assets/images/screenshot_1.png" width="250" />
-  <img src="assets/images/screenshot_2.png" width="250" />
-  <img src="assets/images/screenshot_3.png" width="250" />
-  <img src="assets/images/screenshot_4.png" width="250" />
+  <img src="asset/screenshot/screen_1.png" width="250" />
+  <img src="asset/screenshot/screen_2.png" width="250" />
+  <img src="asset/screenshot/screen_3.png" width="250" />
+  <img src="asset/screenshot/screen_4.png" width="250" />
 </p>
 
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
